@@ -1,12 +1,12 @@
 <script setup>
-import { useAppStore } from '@/store/modules/app'
+import { useAppStore } from "@/store/modules/app";
 
-const appStore = useAppStore()
+const appStore = useAppStore();
 </script>
 
 <template lang="pug">
 div 
-  NButton(@click="appStore.increment()") 当前：{{ appStore.count }}
+  nut-button(@click="appStore.increment()") 当前：{{ appStore.count }}
 </template>
 
 <style scoped></style>
