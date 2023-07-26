@@ -1,5 +1,4 @@
 <script setup>
-// @ts-check
 import { useAppStore } from '@/store/modules/app'
 
 const appStore = useAppStore()
